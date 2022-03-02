@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*Ocultar el modo link*/
+a {
+    text-decoration: none;
+}
+
+/*Diagramar los items del nav en fila*/
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+/*Espacio entre los elementos logo y nav*/
+.nav {
+    justify-content: space-between;
+}
+
+
+
+/*Diagramación del logo*/
+.logo {
+    margin-left: 69px;
+    margin-top: 29px;
+}
+
+/*Alinear los elementos logo y nav*/
+.align-items-center {
+    align-items: center;
+    margin-right: 69px;
+}
+
+/*Espacio entre los items del nav*/
+.navigation__item {
+    margin: 0 10px;
+    padding: 5px 10px;
+    position: relative;
+}
+
+/*Ocultar fondo del botón*/
+.navigation__item button {
+    background-color: transparent;
+    border: none;
+}
+
+/*Ocultar opciones del botón*/
+.navigation__expanded {
+    position: relative;
+    display: none;
+    background-color: rgb(230, 230, 230);
+    padding: 10px 20px;
+    left: -12px;
+    top: 45px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
