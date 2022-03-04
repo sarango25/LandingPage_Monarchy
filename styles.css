@@ -41,6 +41,11 @@ a {
 .nav {
     justify-content: space-between;
     margin-top: 29px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
 }
 
 /*Diagramación del logo*/
@@ -62,29 +67,36 @@ a {
 
 /*Editar color de los items del menu*/
 .menu__item a {
-    color:black;
+    color:white;
 }
 
 /*Interacción de menu item*/
 .menu__item:hover {
-    background-color: #CC904E;
+    padding-bottom: 5px;
+    box-shadow: 0 3px 0 #CC904E;
     
 }
 
 /*Ocultar fondo del boton*/
 .menu__item button {
+    color: #fff;
     background-color: transparent;
     border: none;
 }
 
 /*Tamaño de la fuente de los items del menu*/
 .menu__item button, .menu__item a {
-    font-size: 1em;
+    font-size: 0.9em;
 }
 
 /*Ocultar menu desplegable*/
 .menu__item:hover > .menu__expanded {
     display: block;
+}
+
+.current{
+    padding-bottom: 5px;
+    box-shadow: 0 3px 0 #CC904E;
 }
 
 /*Diagramación menu desplegable*/
@@ -134,8 +146,52 @@ a {
 
 /*Digramación de los features*/
 .features {
+    padding: 20px 10px;
+    width: 100%;
+    height: 450px;
+}
+
+/*Diagramación columnas del features*/
+.features__column {
+    margin: 150px 69px 150px 69px;
+}
+
+.promotions {
     width: 100%;
     height: 600px;
 }
+
+.promotion__background {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.promotion__info {
+    margin: 5px 10px 10px 5px;
+    padding: 150px;
+    color: #fff;
+    position: absolute;
+}
+
+.promotion__title {
+    font-size: 4em;
+    color: #CC904E;
+}
+
+.promotion__text {
+    font: 1em;
+}
+
+.promotion a {
+    color:#fff;
+}
+
+
+
+
+
+
+
 
 
