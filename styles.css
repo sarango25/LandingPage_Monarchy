@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&family=Cormorant+Infant:wght@700&family=Open+Sans:wght@400;600&display=swap');
+
 /*Ocultar margen a todo el HTML*/
 * {
     margin: 0;
@@ -7,11 +9,13 @@
 
 /*Añadir fuente al HTML*/
 html, body {
+    font-family: 'Barlow Condensed', sans-serif;
     font-family: 'Cormorant Infant', serif;
     font-family: 'Open Sans', sans-serif;
 }
 /*Añadir fuente a los botones*/
 button {
+    font-family: 'Barlow Condensed', sans-serif;
     font-family: 'Cormorant Infant', serif;
     font-family: 'Open Sans', sans-serif;
 }
@@ -29,6 +33,7 @@ a {
 /*Clases utilitarias*/
 .flex {
     display: flex;
+
 }
 
 /*Clases utilitarias*/
@@ -111,7 +116,7 @@ a {
 /*Diagramación del banner*/
 .banner {
     width: 100%;
-    height: 600px;
+    height: 800px;
 }
 
 /*Diagramación fondo del banner*/
@@ -123,25 +128,44 @@ a {
 
 /*Diagramación información del banner*/
 .banner__info {
-    margin: 5px 10px 10px 5px;
-    padding: 150px;
+    margin: 100px 10px 31px 11px;
+    padding: 100px;
     color: #fff;
     position: absolute;
 }
 
 /*Tamaño fuente del tituo del banner*/
 .banner__title {
-    font-size: 4em;
+    font-size: 5em;
+    font-family: 'Barlow Condensed', sans-serif;
 }
 
 /*Tamaño fuente del texto del banner*/
 .banner__text {
+    margin-top: 20px;
     font: 1em;
 }
 
 /*Editar color del link del banner*/
-.banner a {
+.banner__info a {
+    display: block;
     color:#fff;
+    margin-top: 20px;
+    padding: 7px 19px;
+    outline: 100px;
+    
+
+}
+
+.text__btn{
+    width: 16%;
+    border: solid;
+    border-color: #fff;
+    border-width: 3px;
+    border-radius: 20px;
+    font-size: 0.9em;
+    
+
 }
 
 /*Digramación de los features*/
