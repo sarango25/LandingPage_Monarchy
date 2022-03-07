@@ -51,12 +51,12 @@
                         </li>
                         <li>
                             <a href="#" class="menu__item">
-                                <img src="./img/icon_Shop.png" alt="shop_icon" height="20">
+                                <img src="./img/icon_shop.png" alt="icon1" height="20">
                             </a>
                         </li>
                         <li>
                             <a href="#" class="menu__item">
-                                <img src="./img/icon_Account.png" alt="shop_icon" height="20">
+                                <img src="./img/icon_account.png" alt="icon2" height="20">
                             </a>
                         </li>
                     </ul>
@@ -71,28 +71,29 @@
             <img src="./img/banner.png" alt="Img1" class="banner__background">
         </section>
 
-        <section class="features flex">
-            <div class="features__item">
-            </div>
-            <div class="features__column">
-                //icon
-                <h4 class="features__title">SELECT</h4>
-                <p class="features__text">You can choose from a wide variety of liqueurs. </p>
-            </div>
-            <br>
-            <div class="features__column">
-                //icon
-                <h4 class="features__title">BUY</h4>
-                <p class="features__text">We have all payment methods available for your convenience.</p>
-            </div>
-            <br>
-            <div class="features__column">
-                //icon
-                <h4 class="features__title">ENJOY</h4>
-                <p class="features__text">Get ready to enjoy a high quality drink.</p>
+        <section class="features">
+           <div class="feat">
+
+               <div class="feat__column">
+                   <img src="./img/icon_select.png" alt="icon3" class="feat__icon">
+                   <h4 class="feat__title">SELECT</h4>
+                   <p class="feat__text">You can choose from a wide <br> variety of liqueurs. </p>
+                </div>
+                
+                <div class="feat__column">
+                    <img src="./img/icon_buy.png" alt="icon4" class="feat__icon" >
+                    <h4 class="feat__title">BUY</h4>
+                    <p class="feat__text">We have all payment methods <br> available for your convenience.</p>
+                </div>
+                
+                <div class="feat__column">
+                    <img src="./img/icon_enjoy.png" alt="icon5" class="feat__icon">
+                    <h4 class="feat__title">ENJOY</h4>
+                    <p class="feat__text">Get ready to enjoy a high <br> quality drink.</p>
+                </div>
             </div>
         </section>
-
+            
         <section class="promotion">
             <div class="promotion__info">
                 <h2 class="promotion__title">PREMIUM</h2>
@@ -102,48 +103,67 @@
             <img src="./img/Banner2.png" alt="Img2" class="promotion__background">
         </section>
 
-        <section>
-            //brands
+        <section class="brands">
+            <div class="brands__items">
+                <div>
+                    <img src="./img/1800_logo.png" alt="" class="brands__logo">
+                </div>
+                <div>
+                    <img src="./img/jw_logo.png" alt="" class="brands__logo">
+                </div>
+                <div>
+                    <img src="./img/corona_logo.png" alt="" class="brands__logo">
+                </div>
+                <div>
+                    <img src="./img/oldparr_logo.png" alt="" class="brands__logo">
+                </div>
+                <div>
+                    <img src="./img/donjulio_logo.png" alt="" class="brands__logo">
+                </div> 
+            </div>
         </section>
 
-        <section>
-            <h3>BEST SELLERS</h3>
-            <div> 
-                <a href="#" class="best_seller__item">
-                    <div class="best_seller__name">
+        <section class="products ">
+            <h3 class="products__title">BEST SELLERS</h3>
+            <div class="products flex"> 
+                <a href="#" class="products__column">
+                    <img src="./img/jimador.png" alt="">
+                    <div class="products__name">
                         <h4>ARTICLE 1</h4>
                         <h4>PRICE</h4>
                     </div>
-                    //imagen articulo
                 </a>
-                <a href="#" class="best_seller__item">
-                    <div class="best_seller__name">
+                <a href="#" class="products__column">
+                    <img src="./img/jagger.png" alt="">
+                    <div class="products__name">
                         <h4>ARTICLE 2</h4>
                         <h4>PRICE</h4>
                     </div>
-                    //imagen articulo
                 </a>
-                <a href="#" class="best_seller__item">
-                    <div class="best_seller__name">
+                <a href="#" class="products__column">
+                    <img src="./img/jackdaniels.png" alt="">
+                    <div class="products__name">
                         <h4>ARTICLE 3</h4>
                         <h4>PRICE</h4>
                     </div>
-                    //imagen articulo
+                    
                 </a>
-                <a href="#" class="best_seller__item">
-                    <div class="best_seller__name">
+                <a href="#" class="products__column">
+                    <img src="./img/absolut.png" alt="">
+                    <div class="products__name">
                         <h4>ARTICLE 4</h4>
                         <h4>PRICE</h4>
                     </div>
-                    //imagen del articulo
+                    
                 </a>
             </div>
             <br> 
             <button>SEE MORE</button>
         </section>
-        <section>
-            <div>
-                <h2>JOIN US</h2>
+
+        <section class="newsletter">
+            <div class="newsletter__info">
+                <h2 class="newsletter__title">JOIN US</h2>
                 <p>Be part of our community in order to receive offers in your email constantly</p>
                 <form action="newsletter">
                     <label for="email">E-MAIL</label>
@@ -151,7 +171,7 @@
                     <input type="submit" value="SUBSCRIBE"> 
                 </form>
             </div>
-            //imagen de la seccion
+            <img src="./img/newsletter.png" alt="img3" class="newletter__background">
         </section>
         <footer>
             <div>
