@@ -250,12 +250,13 @@ a {
     overflow: hidden;
     padding: 20px 20px;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .products__item {
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
+    padding: 0px 25px;
 }
 
 
@@ -268,17 +269,23 @@ a {
 
 }
 
-
 .products__column {
     width: 25%;
-    padding:50px;
+    padding: 22px;
+
     
-  
 }
 
 .products__name {
+    font-size: 0.9em;
     margin-top: 20px;
     color: #000;
+}
+
+.products__btn {
+    color: #000;
+    background-color: transparent;
+    border: none;
 }
 
 .newsletter {
@@ -321,10 +328,15 @@ a {
 .newsletter__form {
    margin-top: 20px;
    border-radius: 20px;
+   padding: 7px;
    
 
 }
 
+.newsletter__btn {
+    border-radius: 20px;
+    padding: 7px;
+}
 
 .footer{
     width: 100%;
