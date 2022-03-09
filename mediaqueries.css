@@ -6,4 +6,31 @@
     .menu__mobile {
         display: block;
     }
+
+@media all and (max-width: 768px){
+    .banner {
+        width: 100%;
+    }
 }
+
+@media all and (max-width: 983px){
+    .feat {
+        flex-wrap: wrap;
+    }
+
+    .feat__column {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 768px){
+    .products {
+        flex-wrap: wrap;
+    }
+
+    .products__column {
+        width: 100%;
+    }
+}
+}
+   

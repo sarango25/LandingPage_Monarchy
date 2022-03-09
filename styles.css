@@ -12,6 +12,7 @@ html, body {
     font-family: 'Barlow Condensed', sans-serif;
     font-family: 'Cormorant Infant', serif;
     font-family: 'Open Sans', sans-serif;
+    
 }
 /*Añadir fuente a los botones*/
 button {
@@ -137,6 +138,7 @@ a {
 
 /*Diagramación información del banner*/
 .banner__info {
+    width: 100%;
     margin: 100px 10px 31px 11px;
     padding: 100px;
     color: #fff;
@@ -166,14 +168,12 @@ a {
 }
 
 .text__btn{
-    width: 16%;
+    width: 110px;
     border: solid;
     border-color: #fff;
     border-width: 3px;
     border-radius: 20px;
     font-size: 0.9em;
-    
-
 }
 
 /*Digramación de los features*/
@@ -220,6 +220,7 @@ a {
 }
 
 .promotion__info {
+    width: 100%;
     margin: 90px 10px 30px 10px;
     padding: 90px;
     color: #fff;
@@ -245,8 +246,16 @@ a {
     outline: 100px;
 }
 
+.promotion__btn{
+    width: 70px;
+    border: solid;
+    border-color: #fff;
+    border-width: 3px;
+    border-radius: 20px;
+    font-size: 0.9em;
+}
+
 .brands {
-    width: 100%;
     background-color:#FBE0C2;
     overflow: hidden;
    
@@ -256,7 +265,7 @@ a {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin: -5px 200px;
+    padding: 0 100px;
     align-items:center;
 
 }
