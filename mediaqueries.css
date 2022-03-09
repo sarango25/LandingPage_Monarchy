@@ -1,11 +1,9 @@
-@media all and (max-width: 900px){
-   .menu{
+@media all and (max-width: 768px) {
+    .menu {
         display: none;
-   }
+    }
 
-   .menu__mobile {
-    display: block;
-   
+    .menu__mobile {
+        display: block;
+    }
 }
-   
-} 
